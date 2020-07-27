@@ -1,5 +1,7 @@
 ## Romeo
-A compiler to translate Verilog code to fully homomorphic circuits using [TFHE](https://tfhe.github.io/tfhe/) in order to facilitate secure computation outsourcing to the cloud.
+This repository contains the source code for the Romeo compiler (detailed in this [paper](https://tinyurl.com/romeo-dac2020-authorversion)). Romeo is used to translate Verilog code to fully homomorphic circuits using [TFHE](https://tfhe.github.io/tfhe/) in order to facilitate secure computation outsourcing to the cloud. For more information about the theory behind Romeo, see [this presentation](https://tinyurl.com/romeo-dac2020-video-ppt). To reference this framework, please use the following citation for the accompanying paper: 
+
+C. Gouert and N.G. Tsoutsos, "Romeo: Conversion and Evaluation of HDL Designs in the Encrypted Domain," *57th ACM/IEEE Design Automation Conference.* pp. 1--6, 2020.
 
 #### Romeo Dependencies
 Install [TFHE](https://tfhe.github.io/tfhe/) and ensure that SPQLIOS_FMA is chosen as an FFT engine (this can be done during the cmake configuration step).
